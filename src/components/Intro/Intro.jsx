@@ -25,7 +25,7 @@ const Intro = () => {
             </button>
           </Link>
         </div>
-        <img src={bg} alt="" className="bg" />
+        <img src={bg} alt="Profile" className="bg" />
       </section>
     </>
   );
