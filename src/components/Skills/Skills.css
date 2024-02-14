@@ -18,8 +18,36 @@
 }
 
 .skillDesc {
-    font-weight: 200;
-    font-size: 1rem;
+    font-weight: 400;
+    font-size: 0.95rem;
     max-width: 53rem;
     padding: 0 2rem;
+}
+
+.skillBars {
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+}
+
+.skillBar {
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: rgb(148, 154, 208);
+
+}
+
+.skillBarImg {
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin-right: 2rem;
+}
+
+.skillBarText>p {
+    font-size: 0.9rem;
+    font-weight: 200;
 }
