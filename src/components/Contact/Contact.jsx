@@ -1,5 +1,7 @@
 import "./Contact.css";
-import icon from "../../../public/logo3.png";
+import fb from "../../../public/assets/fb.png";
+import git from "../../../public/assets/git.png";
+import ig from "../../../public/assets/ig.png";
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
 
@@ -23,6 +25,8 @@ const Contact = () => {
         }
       );
   };
+
+
   return (
     <>
       <div id="contactPage">
@@ -54,10 +58,9 @@ const Contact = () => {
               Submit
             </button>
             <div className="links">
-              <img src={icon} alt="Facebook" className="link" />
-              <img src={icon} alt="Twitter" className="link" />
-              <img src={icon} alt="YouTube" className="link" />
-              <img src={icon} alt="Instagram" className="link" />
+              <img src={fb} alt="Facebook" className="link" />
+              <img src={ig} alt="Instagram" className="link" />
+              <img src={git} alt="GitHub" className="link" />
             </div>
           </form>
         </div>

@@ -1,6 +1,6 @@
 #works {
     margin: 0 auto;
-    min-width: calc(100vh - 5rem);
+    min-width: calc(100vw - 5rem);
     width: 100vw;
     max-width: 60rem;
     display: flex;
@@ -47,9 +47,67 @@
     background: white;
     color: rgb(0, 0, 0);
 }
-
 @media screen and (max-width:585px) {
     .worksImg {
         height: 50vw;
     }
+    #works{
+        font-size: 0.5rem;
+        width: 60vw;
+    }
 }
+
+/* @media screen and (max-width:720px) {
+    .worksImg {
+        height: 50vw;
+    }
+    #works{
+        font-size: 1rem;
+        font-weight: 200;
+    }
+} */
+
+/* @media screen and (max-width:720px) {
+    .worksImg {
+        height: 50vw;
+    }
+    #works>h2{
+        font-size: 25px;
+    }
+    #works>span{
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width:480) {
+    .worksImg {
+        height: 50vw;
+    }
+    #works{
+        font-size: 1rem;
+        font-weight: 200;
+    }
+    
+}
+ */
+
+/* @media screen and (max-width:720px) {
+    .skillBarText>p {
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .skillBarText>p {
+        font-size: 2vw;
+    }
+
+    .skillBarImg {
+        height: 2.25rem;
+        width: 2.25rem;
+    }
+
+    .skillBarText>h2 {
+        font-size: 5vw;
+    }
+} */

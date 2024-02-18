@@ -1,5 +1,5 @@
 import "./Intro.css";
-import bg from "../../../public/bg.png";
+import bg from "../../../public/bg2.jpg";
 import btnImg from "../../../public/briefcase1.png";
 import { Link } from "react-scroll";
 
