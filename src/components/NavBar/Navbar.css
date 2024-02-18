@@ -1,7 +1,7 @@
 .navbar {
     background: rgb(40, 40, 40);
     height: 5rem;
-    width: 100vw;
+    width: 90vw;
     max-width: 75rem;
     margin: 0 auto;
     padding: 1rem 2rem;
@@ -102,3 +102,17 @@
         display: none;
     }
 }
+
+/* @media screen and (max-width:480px) {
+    .navbar {
+        display: flex;
+    }
+
+    .desktopMenu {
+        display: none;
+    }
+
+    .desktopMenuBtn {
+        display: none;
+    }
+} */

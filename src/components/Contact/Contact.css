@@ -1,6 +1,6 @@
 #contactPage {
     min-width: calc(100vw - 5rem);
-    width: 100vw;
+    width: 90vw;
     max-width: 60rem;
     margin: 0 auto;
     text-align: center;
@@ -70,9 +70,16 @@
     cursor: pointer;
 }
 
-/* @media screen and (max-width:539px) {
+@media screen and (max-width:539px) {
     .contactDesc {
+        margin-left: 2rem;
         font-size: small;
         width: 30rem;
     }
-} */
+    #contactPage{
+        width: 1rem;
+    }
+    .contactDesc{
+        display: inline-block;
+    }
+}
