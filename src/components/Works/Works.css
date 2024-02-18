@@ -33,7 +33,8 @@
 
 .worksImg {
     object-fit: cover;
-    height: 20rem;
+    height: 15rem;
+    width: 15rem;
     margin: 0.5rem;
 }
 

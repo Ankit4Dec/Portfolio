@@ -1,7 +1,11 @@
 import "./Works.css";
-import i1 from "../../../public/i1.jpg";
-import i2 from "../../../public/i2.jpg";
-import i3 from "../../../public/i3.jpg";
+// import i1 from "../../../public/i1.jpg";
+// import i2 from "../../../public/i2.jpg";
+// import i3 from "../../../public/i3.jpg";
+import i1 from "../../../public/assets/cal.png";
+import i2 from "../../../public/assets/PLP.png";
+import i3 from "../../../public/assets/Tic-Tac-Toe.png";
+import i4 from "../../../public/assets/WD.png";
 
 const Works = () => {
   return (
@@ -18,9 +22,7 @@ const Works = () => {
           <img src={i1} alt="" className="worksImg" />
           <img src={i2} alt="" className="worksImg" />
           <img src={i3} alt="" className="worksImg" />
-          <img src={i1} alt="" className="worksImg" />
-          <img src={i2} alt="" className="worksImg" />
-          <img src={i3} alt="" className="worksImg" />
+          <img src={i4} alt="" className="worksImg" />
         </div>
         <button className="workBtn">See More</button>
       </section>
