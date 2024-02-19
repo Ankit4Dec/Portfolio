@@ -103,6 +103,14 @@
     }
 }
 
+@media screen and (max-width:480px) {
+    .navbar {
+        max-width: 83.5vw;
+        margin-left: 1px;
+    }
+}
+
+
 /* @media screen and (max-width:480px) {
     .navbar {
         display: flex;

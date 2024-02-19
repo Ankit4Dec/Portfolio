@@ -1,4 +1,4 @@
-.footer{
+.footer {
     width: 100vw;
     height: 5rem;
     background: rgb(40, 40, 40);
@@ -7,4 +7,11 @@
     justify-content: center;
     font-weight: 300;
     font-size: small;
+}
+
+@media screen and (max-width:539px) {
+    .footer {
+        width: 98vw;
+        margin-left: 2px;
+    }
 }

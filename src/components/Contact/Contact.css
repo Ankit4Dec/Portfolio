@@ -1,8 +1,9 @@
 #contactPage {
     min-width: calc(100vw - 5rem);
-    width: 90vw;
+    width: 100vw;
     max-width: 60rem;
     margin: 0 auto;
+    /* margin: 0; */
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -24,6 +25,7 @@
 
     justify-content: center;
     width: 90vw;
+    /* width: 66vw; */
     max-width: 60rem;
 }
 
@@ -74,12 +76,22 @@
     .contactDesc {
         margin-left: 2rem;
         font-size: small;
-        width: 30rem;
+        width: 25rem;
     }
     #contactPage{
-        width: 1rem;
+        width: 60vw;
+        margin: 0 0 0 30px;
     }
     .contactDesc{
         display: inline-block;
+    }
+    .contactForm{
+        width: 66vw;
+    }
+    .submitBtn{
+        margin-left: 60px;
+    }
+    .links{
+        margin-left: 40px;
     }
 }

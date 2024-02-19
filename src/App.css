@@ -8,8 +8,14 @@
 }
 
 body {
-  background: rgb(40, 40, 40);
+  background: rgb(195, 0, 0);
   color: rgb(232, 232, 232);
   overflow: hidden;
   overflow-y: scroll;
+}
+
+@media screen and (max-width:480px) {
+  .App {
+    width: 60vw;
+  }
 }

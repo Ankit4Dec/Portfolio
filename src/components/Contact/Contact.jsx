@@ -30,7 +30,7 @@ const Contact = () => {
   return (
     <>
       <div id="contactPage">
-        <div className="contact">
+
           <h1 className="ContactPageTitle">Contact Me</h1>
           <span className="contactDesc">
             Please fill out the form below to discuss any work opportunities.
@@ -64,7 +64,6 @@ const Contact = () => {
             </div>
           </form>
         </div>
-      </div>
     </>
   );
 };
