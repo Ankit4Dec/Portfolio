@@ -78,6 +78,9 @@
         font-size: small;
         width: 25rem;
     }
+    .ContactPageTitle{
+        margin-left: 30px;
+    }
     #contactPage{
         width: 60vw;
         margin: 0 0 0 30px;

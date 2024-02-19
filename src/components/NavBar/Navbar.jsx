@@ -1,8 +1,9 @@
 import "./Navbar.css";
-import logo from "../../../public/logo3.png";
+// import logo from "../../../public/logo3.png";
+import logo from "../../../public/iA.png"
 import contact from "../../../public/contact.png";
 import { Link } from "react-scroll";
-import menu from "../../../public/logo.jpg";
+import menu from "../../../public/i8.svg";
 import { useState } from "react";
 
 const Navbar = () => {
