@@ -107,6 +107,7 @@
     .navbar {
         max-width: 88vw;
         margin-left: 1px;
+        height: 50px;
     }
 }
 
