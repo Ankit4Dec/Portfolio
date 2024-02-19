@@ -18,7 +18,7 @@
 
 .introContent {
     height: 100vh;
-    width: 100vw;
+    width: 95vw;
     padding: 1rem;
     font-size: 3rem;
     font-weight: 700;
@@ -78,10 +78,17 @@
 
 @media screen and (max-width:480px) {
     .bg {
-        right: -48vw;
+        right: -60vw;
     }
 
     .introContent {
         margin-left: 4px;
+    }
+    #intro{
+        /* margin-right: 0px; */
+        /* width: 100vw; */
+        /* left: -2vw; */
+        right: -3vw;
+        width: 98vw;
     }
 }
