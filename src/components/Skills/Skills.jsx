@@ -1,6 +1,11 @@
 import "./Skills.css";
-import UIDesign from "../../../public/logo.jpg";
-import WebDesign from "../../../public/web-design.png";
+// import UIDesign from "../../../public/logo.jpg";
+// import WebDesign from "../../../public/web-design.png";
+import Genral from "../../../public/skill.png";
+import Visual from "../../../public/studio.png";
+import Setting from "../../../public/programming.png";
+import Responsive from "../../../public/responsive.png";
+import User from "../../../public/people.png";
 
 const Skills = () => {
   return (
@@ -16,32 +21,56 @@ const Skills = () => {
         </span>
         <div className="skillBars">
           <div className="skillBar">
-            <img src={UIDesign} alt="UIDesign" className="skillBarImg" />
+            <img src={Genral} alt="UIDesign" className="skillBarImg" />
             <div className="skillBarText">
-              <h2>UI/UX Design</h2>
+              <h2>General Statement</h2>
               <p>
-                Specializing in crafting visually appealing and user-friendly
-                websites, ensuring a seamless user experience
+                Dedicated to creating visually appealing and functional website
+                designs that effectively communicate brands and engage users.
               </p>
             </div>
           </div>
           <div className="skillBar">
-            <img src={WebDesign} alt="WebDesign" className="skillBarImg" />
+            <img src={Visual} alt="WebDesign" className="skillBarImg" />
             <div className="skillBarText">
-              <h2>Website Design</h2>
+              <h2>Focus on Visual Design</h2>
               <p>
-                Focused on creating captivating website designs that enhance
-                brand identity and drive user engagement.
+                Specializing in the art of web design, I bring creativity and
+                precision to craft visually stunning websites that leave a
+                lasting impression.
               </p>
             </div>
           </div>
           <div className="skillBar">
-            <img src={UIDesign} alt="AppDesign" className="skillBarImg" />
+            <img src={Setting} alt="AppDesign" className="skillBarImg" />
             <div className="skillBarText">
-              <h2>App Design</h2>
+              <h2>Emphasize Functionality</h2>
               <p>
-                Experienced in designing sleek and user-friendly mobile
-                applications for iOS and Android platforms.
+                My expertise lies in designing websites that not only look great
+                but also function seamlessly, ensuring a positive user
+                experience.
+              </p>
+            </div>
+          </div>
+          <div className="skillBar">
+            <img src={Responsive} alt="AppDesign" className="skillBarImg" />
+            <div className="skillBarText">
+              <h2>Highlight Responsive Design</h2>
+              <p>
+                Passionate about responsive web design, I create websites that
+                adapt seamlessly across devices, providing a consistent and
+                enjoyable user experience
+              </p>
+            </div>
+          </div>
+          <div className="skillBar">
+            <img src={User} alt="AppDesign" className="skillBarImg" />
+            <div className="skillBarText">
+              <h2>User-Centric Approach</h2>
+              <p>
+                Driven by a user-centric approach, I design websites that
+                prioritize ease of use, emphasizing an intuitive and accessible
+                interface.
               </p>
             </div>
           </div>
