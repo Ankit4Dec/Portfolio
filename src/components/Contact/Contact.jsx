@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 
 const Contact = () => {
   const form = useRef();
+
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -75,5 +76,7 @@ const Contact = () => {
     </>
   );
 };
+
+// export { scrollToContact };
 
 export default Contact;

@@ -1,6 +1,4 @@
 import "./Skills.css";
-// import UIDesign from "../../../public/logo.jpg";
-// import WebDesign from "../../../public/web-design.png";
 import Genral from "../../../public/skill.png";
 import Visual from "../../../public/studio.png";
 import Setting from "../../../public/programming.png";
