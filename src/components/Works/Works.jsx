@@ -19,10 +19,27 @@ const Works = () => {
           presence.
         </span>
         <div className="worksImgs">
-          <img src={i1} alt="" className="worksImg" />
-          <img src={i2} alt="" className="worksImg" />
-          <img src={i3} alt="" className="worksImg" />
-          <img src={i4} alt="" className="worksImg" />
+          <a href="https://ankit4dec.github.io/Calculator/" target="_blank">
+            <img src={i1} alt="cal" className="worksImg" id="cal" />
+          </a>
+          <a
+            href="https://ankit4dec.github.io/Product-Landing-Page/"
+            target="_blank"
+          >
+            <img src={i2} alt="ap" className="worksImg" id="ap" />
+          </a>
+          <a
+            href="https://ankit4dec.github.io/Tic-Tac-Toe-Game/"
+            target="_blank"
+          >
+            <img src={i3} alt="ttg" className="worksImg" id="ttg" />
+          </a>
+          <a
+            href="https://ankit4dec.github.io/Weather-Detector/"
+            target="_blank"
+          >
+            <img src={i4} alt="wd" className="worksImg" id="wd" />
+          </a>
         </div>
         <button className="workBtn">See More</button>
       </section>

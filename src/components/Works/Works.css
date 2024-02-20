@@ -38,6 +38,12 @@
     margin: 0.5rem;
 }
 
+#cal,
+#ttg,
+#ap,
+#wd {
+    cursor: pointer;
+}
 
 .workBtn {
     margin: 3rem 0;
@@ -47,11 +53,13 @@
     background: white;
     color: rgb(0, 0, 0);
 }
+
 @media screen and (max-width:585px) {
     .worksImg {
         height: 50vw;
     }
-    #works{
+
+    #works {
         font-size: 0.5rem;
         width: 60vw;
     }
