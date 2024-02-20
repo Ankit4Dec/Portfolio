@@ -1,5 +1,6 @@
 import "./Skills.css";
 import UIDesign from "../../../public/logo.jpg";
+import WebDesign from "../../../public/web-design.png";
 
 const Skills = () => {
   return (
@@ -18,16 +19,19 @@ const Skills = () => {
             <img src={UIDesign} alt="UIDesign" className="skillBarImg" />
             <div className="skillBarText">
               <h2>UI/UX Design</h2>
-              <p>This is a demo text, you can write your own contect here.</p>
+              <p>
+                Specializing in crafting visually appealing and user-friendly
+                websites, ensuring a seamless user experience
+              </p>
             </div>
           </div>
           <div className="skillBar">
-            <img src={UIDesign} alt="WebDesign" className="skillBarImg" />
+            <img src={WebDesign} alt="WebDesign" className="skillBarImg" />
             <div className="skillBarText">
               <h2>Website Design</h2>
               <p>
-                This demo text can be changed while making the production ready
-                site.
+                Focused on creating captivating website designs that enhance
+                brand identity and drive user engagement.
               </p>
             </div>
           </div>
@@ -35,7 +39,10 @@ const Skills = () => {
             <img src={UIDesign} alt="AppDesign" className="skillBarImg" />
             <div className="skillBarText">
               <h2>App Design</h2>
-              <p>You can write text related to mobile app development</p>
+              <p>
+                Experienced in designing sleek and user-friendly mobile
+                applications for iOS and Android platforms.
+              </p>
             </div>
           </div>
         </div>
