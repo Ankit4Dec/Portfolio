@@ -6,6 +6,7 @@ import i1 from "../../../public/assets/cal.png";
 import i2 from "../../../public/assets/PLP.png";
 import i3 from "../../../public/assets/Tic-Tac-Toe.png";
 import i4 from "../../../public/assets/WD.png";
+import w1 from "../../../public/w1.png";
 
 const Works = () => {
   return (
@@ -34,11 +35,8 @@ const Works = () => {
           >
             <img src={i3} alt="ttg" className="worksImg" id="ttg" />
           </a>
-          <a
-            href="https://ankit4dec.github.io/Weather-Detector/"
-            target="_blank"
-          >
-            <img src={i4} alt="wd" className="worksImg" id="wd" />
+          <a href="https://getclimatedetails.netlify.app/" target="_blank">
+            <img src={w1} alt="wd" className="worksImg" id="wd" />
           </a>
         </div>
         <button className="workBtn">See More</button>
